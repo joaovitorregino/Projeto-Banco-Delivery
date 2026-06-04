@@ -1,0 +1,8 @@
+SELECT
+    p.id_pedido,
+    c.nome AS cliente,
+    p.valor_total,
+    p.status
+FROM Pedido p
+INNER JOIN Cliente c
+ON p.id_cliente = c.id_cliente;
