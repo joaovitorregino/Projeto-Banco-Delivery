@@ -1,0 +1,5 @@
+SELECT
+    status,
+    COUNT(*) AS quantidade
+FROM Pedido
+GROUP BY status;
