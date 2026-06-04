@@ -1,0 +1,7 @@
+SELECT
+    e.nome AS entregador,
+    p.id_pedido,
+    p.status
+FROM Entregador e
+RIGHT JOIN Pedido p
+ON e.id_entregador = p.id_entregador;
