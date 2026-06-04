@@ -1,0 +1,8 @@
+SELECT
+    c.nome,
+    SUM(p.valor_total) AS total_gasto
+FROM Cliente c
+INNER JOIN Pedido p
+ON c.id_cliente = p.id_cliente
+GROUP BY c.nome
+HAVING SUM(p.valor_total) > 40;
