@@ -1,1 +1,1 @@
-
+Nesta etapa foram desenvolvidas consultas SQL para extração de informações do banco de dados do sistema de delivery de comida. Foram utilizados comandos como INNER JOIN, LEFT JOIN, RIGHT JOIN, GROUP BY, HAVING e Subqueries, permitindo gerar relatórios gerenciais e analisar os dados armazenados no sistema.
