@@ -1,0 +1,6 @@
+SELECT
+    forma_pagamento,
+    COUNT(*) AS quantidade
+FROM Pagamento
+GROUP BY forma_pagamento
+HAVING COUNT(*) > 5;
