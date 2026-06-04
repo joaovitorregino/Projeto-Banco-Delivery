@@ -1,0 +1,7 @@
+SELECT
+    c.id_cliente,
+    c.nome,
+    p.id_pedido
+FROM Cliente c
+LEFT JOIN Pedido p
+ON c.id_cliente = p.id_cliente;
